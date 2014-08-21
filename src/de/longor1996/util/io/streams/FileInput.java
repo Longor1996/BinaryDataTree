@@ -5,7 +5,6 @@ import java.io.EOFException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URL;
 
 public class FileInput implements Input, AutoCloseable, Closeable
 {

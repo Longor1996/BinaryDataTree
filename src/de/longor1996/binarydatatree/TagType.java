@@ -95,6 +95,11 @@ public enum TagType
 	 **/
 	FLOATARRAY(0x17, "FloatArray"), 
 	
+	/**
+	 * A tag that stores a array of booleans.
+	 **/
+	BOOLARRAY(0x18, "BoolArray"), 
+	
 	
 	
 	
@@ -110,6 +115,16 @@ public enum TagType
 	 * A tag that stores 3 64-bit floating point numbers. ('Vector3d')
 	 **/
 	TUPLE3D(0x21, "Tuple3d"),
+	
+	/**
+	 * A tag that stores 4 32-bit floating point numbers. ('Vector4f')
+	 **/
+	TUPLE4F(0x22, "Tuple4f"),
+	
+	/**
+	 * A tag that stores 4 64-bit floating point numbers. ('Vector4d')
+	 **/
+	TUPLE4D(0x23, "Tuple4d"),
 	
 	
 	

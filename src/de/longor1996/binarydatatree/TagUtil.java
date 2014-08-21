@@ -47,10 +47,13 @@ public class TagUtil
 		case 0x15: return new TByteArray(name);
 		case 0x16: return new TIntArray(name);
 		case 0x17: return new TFloatArray(name);
+		case 0x18: return new TBoolArray(name);
 		
 		// tuples
 		case 0x20: return new TTuple3f(name);
 		case 0x21: return new TTuple3d(name);
+		case 0x22: return new TTuple4f(name);
+		case 0x23: return new TTuple4d(name);
 		
 			default: throw new UnknownTagException("Unknown Tag-Type ID.");
 		}
